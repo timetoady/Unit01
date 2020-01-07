@@ -1,0 +1,96 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/* body rules */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+/* header rules */
+header {
+    background-color: #5082c4;
+    padding: 1rem 2%;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h2 {
+    margin: 0;
+}
+
+
+/* nav rules */
+nav {
+    background-color: green;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+nav li .active {
+    background-color: rgba(116, 57, 15, 0.486);
+    ;
+}
+
+nav a {
+    display: block;
+    padding: .8rem 0;
+    color: #eee;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgba(139, 69, 19, 0.301);
+}
+
+/* main rules */
+main {
+    padding: 1rem 2%;
+    display: block;
+}
+
+main h1 {
+    color: #5082c4;
+}
+
+main figure img {
+    width: 100%;
+}
+
+main figure {
+    width: 100%;
+    margin: 0;
+}
+
+main figcaption {
+    text-align: center;
+    font-size: .7rem;
+}
+
+/* footer rules */
+
+footer {
+    text-align: center;
+    padding: 1rem 2%;
+    background-color: #5082c4;
+}

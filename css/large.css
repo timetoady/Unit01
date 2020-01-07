@@ -1,0 +1,31 @@
+@media only screen and (min-width: 1028px) {
+
+    nav li {
+        width: auto;
+
+    }
+
+    main figure {
+        width: 25%;
+    }
+
+    div.news {
+        column-count: 3;
+    }
+    header h1{
+        font-size: 3rem;
+    }
+    header h2{
+        font-size: 2rem;
+    }
+}
+
+main,
+nav,
+footer,
+header {
+    max-width: 75rem;
+    margin: auto;
+}
+
+/* End of media query */

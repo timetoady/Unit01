@@ -1,0 +1,39 @@
+@media only screen and (min-width: 560px) {
+
+    nav {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        text-align: left !important;
+
+    }
+
+    nav li {
+        font-size: 1rem;
+
+    }
+
+    nav a {
+        padding: .5rem 1rem;
+
+
+    }
+
+    main figure {
+        float: right;
+        width: 48%;
+        margin-left: 2%;
+    }
+
+    div.news {
+        clear: both;
+        column-count: 2;
+        column-rule: 1px solid #eee;
+    }
+}
+
+/* End of media query */
